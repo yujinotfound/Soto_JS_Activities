@@ -7,7 +7,7 @@ document.getElementById("passwordForm").addEventListener("submit", function(even
     var confirmPassword = document.getElementById("conPassword");
 
     if (!newPassword.value || !conPassword.value) {
-        // Trigger browser validation message
+        
         newPassword.reportValidity();
         confirmPassword.reportValidity();
         event.preventDefault(); // Prevent form submission
