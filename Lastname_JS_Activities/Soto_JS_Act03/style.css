@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 50px;
+}
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+.errorMessage {
+    color: red;
+    display:none;
+}
+.successMessage{
+    color: green;
+    display: none; 
+}
+
